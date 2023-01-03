@@ -36,7 +36,7 @@ import time
 
 
 
-file_ = open("/Users/jekedum/Documents/apps/env/dwf-robo.gif", "rb")
+file_ = open("images/dwf-robo.gif", "rb")
 contents = file_.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
