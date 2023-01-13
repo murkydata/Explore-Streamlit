@@ -5,9 +5,7 @@ pandas==1.5.2
 Pillow==9.4.0
 plotly==5.4.0
 requests==2.25.1
-scikit_image
 seaborn==0.11.1
-skimage==0.0
 spacy==3.4.3
 spacy_streamlit==1.0.4
 stqdm==0.0.5
