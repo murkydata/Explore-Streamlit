@@ -19,8 +19,6 @@ from datetime import date
 import asent
 import streamlit.components.v1 as components
 import base64
-import skimage
-from skimage.transform import resize
 from transformers import ViTFeatureExtractor, ViTForImageClassification
 from PIL import Image
 import requests
