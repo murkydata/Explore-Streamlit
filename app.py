@@ -9,7 +9,6 @@ from transformers import pipeline
 import json
 import spacy
 import spacy_streamlit
-import pandas as pd
 import numpy as np
 import plotly.figure_factory as ff
 import plotly.express as px
@@ -17,19 +16,16 @@ import altair as alt
 import seaborn as sns
 import datetime
 from datetime import date
-import spacy_streamlit
 import asent
 import streamlit.components.v1 as components
 import base64
-
+import skimage
+from skimage.transform import resize
 from transformers import ViTFeatureExtractor, ViTForImageClassification
 from PIL import Image
-
 import requests
-
-from skimage.transform import resize
 import numpy as np
-import time
+
 
 
 
